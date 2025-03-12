@@ -104,7 +104,8 @@ const HomePage: React.FC = () => {
         <div className="flex items-center gap-6 mb-12">
           <AnimatedLogo className="w-16 h-16" />
           <GlowingTitle className="text-3xl">
-            EV Battery Fault Diagnosis
+            {/* EV Battery Fault Diagnosis */}
+            Organic Food Production
           </GlowingTitle>
         </div>
         <div className="space-y-4">

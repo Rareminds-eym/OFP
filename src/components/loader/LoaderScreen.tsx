@@ -38,11 +38,20 @@ const LoaderScreen: React.FC<LoaderScreenProps> = ({ onComplete }) => {
           />
         </div>
         <div className="w-48 h-48 mb-12">
-          <BatteryLoader progress={progress} />
+          <BatteryLoader imageSrc="/src/assets/loader.png" progress={progress} />
         </div>
 
+    
+      {/* <div className="flex items-center justify-center h-screen">
+      <BatteryLoader 
+        imageSrc="/src/assets/loader.png" // Replace with your image path 
+        progress={50} // You can pass any progress value
+      />
+      </div> */}
+
         <GlowingTitle className="mb-16 text-center">
-          EV Battery Fault Diagnosis System
+          {/* EV Battery Fault Diagnosis System */}
+          Organic Food Production
         </GlowingTitle>
 
         <div className="text-green-400 font-medium">
